@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-Pop Idol Stats Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>K-Pop Idol Stats Dashboard</h1>
+
+    <select id="idolSelect"></select>
+
+    <div class="stats">
+      <div class="card" id="followers">Followers: 0</div>
+      <div class="card" id="albums">Albums: 0</div>
+      <div class="card" id="songs">Songs: 0</div>
+      <div class="card" id="awards">Awards: 0</div>
+    </div>
+
+    <canvas id="chart" width="400" height="200"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
